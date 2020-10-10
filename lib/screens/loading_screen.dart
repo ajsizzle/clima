@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import '../services/location.dart';
 import '../services/networking.dart';
-import '../utilities/apiKey.dart';
+
+const apiKey = '66701032faba5b85ff64ad5e075d6a38';
 
 class LoadingScreen extends StatefulWidget {
   @override
@@ -15,7 +16,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
   @override
   void initState() {
     super.initState();
-    getLocation();
+    getLocationData();
   }
 
   void getLocationData() async {

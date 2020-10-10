@@ -31,7 +31,6 @@
 .pub-cache/
 .pub/
 /build/
-/Users/alexjohnson/Desktop/Projects/flutter/clima/lib/utilities/apiKey.dart
 
 # Web related
 lib/generated_plugin_registrant.dart
